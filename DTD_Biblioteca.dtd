@@ -1,0 +1,72 @@
+<!ELEMENT Biblioteca (Libros,Revistas,Periodicos)>
+
+<!-- Definición de validación para Libros y sus elementos -->
+<!ELEMENT Libros (Libro*)>
+
+<!ELEMENT Libro (Titulo_lbr, Indice_lbr, Sinopsis_lbr, Capitulo_lbr+)>
+<!ELEMENT Titulo_lbr (#PCDATA)>
+<!ELEMENT Capitulo_lbr (Titulo_capitulo, Contenido_capitulo)>
+<!ELEMENT Titulo_capitulo (#PCDATA)>
+<!ELEMENT Indice_lbr (#PCDATA)>
+<!ELEMENT Sinopsis_lbr (#PCDATA)>
+<!ELEMENT Contenido_capitulo (#PCDATA)>
+
+<!ATTLIST Libro
+    id_lbr ID #REQUIRED
+    tipo_clase_lbr (Novela | Infantil | Didactico) #REQUIRED
+    num_paginas_lbr CDATA #IMPLIED
+>
+<!ATTLIST Capitulo_lbr
+    num_paginas_cap CDATA #IMPLIED
+>
+<!ATTLIST Contenido_capitulo
+    enlace_lbr CDATA #IMPLIED
+>
+
+<!-- Definición de validación para Revistas y sus elementos -->
+<!ELEMENT Revistas (Revista*)>
+
+<!ELEMENT Revista (Titulo_rv, Numero_publicacion_rv, Indice_contenido_rv?, Secciones_rv?)>
+<!ELEMENT Titulo_rv (#PCDATA)>
+<!ELEMENT Numero_publicacion_rv (#PCDATA)>
+<!ELEMENT Indice_contenido_rv (#PCDATA)>
+<!ELEMENT Secciones_rv (Seccion_rv+)>
+<!ELEMENT Seccion_rv (Contenido_rv)>
+<!ELEMENT Contenido_rv (#PCDATA)>
+
+<!ATTLIST Revista
+    id_rv ID #REQUIRED
+    tipo_clase_rv (Informatica | Corazon | Coches | Investigacion | Otras) #REQUIRED
+    num_paginas_rv CDATA #REQUIRED
+> 
+<!ATTLIST Seccion_rv
+    num_paginas_seccion CDATA #REQUIRED
+>
+<!ATTLIST Contenido_rv
+    enlace_rv CDATA #IMPLIED
+>
+
+<!-- Definición de validación para Periodicos y sus elementos -->
+<!ELEMENT Periodicos (Periodico*)>
+
+<!ELEMENT Periodico (Indice_pr, Secciones_pr)>
+<!ELEMENT Indice_pr (#PCDATA)>
+<!ELEMENT Secciones_pr (Seccion_pr+)>
+<!ELEMENT Seccion_pr (Articulo_pr+, Contenido_pr?)>
+<!ELEMENT Articulo_pr (#PCDATA)>
+<!ELEMENT Contenido_pr (#PCDATA)>
+
+<!ATTLIST Periodico
+    id_pr ID #REQUIRED
+    tipo_clase_pr (Nacional | Internacional) #REQUIRED
+    fecha_publicacion_pr CDATA #REQUIRED
+>
+<!ATTLIST Seccion_pr
+    tipo_seccion_pr (Economia | Opinion | Deportes | Nacional | Internacional) #REQUIRED
+>
+<!ATTLIST Articulo_pr
+    autor CDATA #IMPLIED
+>
+<!ATTLIST Contenido_pr
+    enlace_pr CDATA #IMPLIED
+>

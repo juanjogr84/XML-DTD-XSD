@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<Biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:noNamespaceSchemaLocation= "Biblioteca.xsd">
+    <Libros>
+        <Libro id_lbr="L1997" tipo_clase_lbr="Novela" num_paginas_lbr="250">
+            <Titulo_lbr>Harry Potter y la piedra filosofal</Titulo_lbr>
+            <Indice_lbr>
+                1-  El niño que sobrevivió
+                2-  El vidrio que se desvaneció
+                3-  Las cartas de nadie
+                4-  El guardián de las llaves
+                5-  El callejón Diagon
+                6-  El viaje a través del andén nueve y tres cuartos
+                7-  El Sombrero Seleccionador
+                8-  El profesor de Pociones
+                9-  El duelo a medianoche
+                10- Halloween
+                11- Quidditch
+                12- El espejo de Oesed
+                13- Nicolás Flamel
+                14- Norberto, el ridgeback noruego
+                15- El bosque prohibido
+                16- A través de la trampilla
+                17- El hombre con dos caras
+            </Indice_lbr>
+            <Sinopsis_lbr>
+                Harry Potter se ha quedado huérfano y vive en casa de sus abominables tíos 
+                y el insoportable primo Dudley. Harry se siente muy triste y solo, 
+                hasta que un buen día recibe una carta que cambiará su vida para siempre. 
+                En ella le comunican que ha sido aceptado como alumno en el 
+                Colegio Hogwarts de Magia. A partir de ese momento, la suerte de Harry da 
+                un vuelco espectacular. En esa escuela tan especial aprenderá encantamientos, 
+                trucos fabulosos y tácticas de defensa contra las malas artes. 
+                Se convertirá en el campeón escolar de Quidditch, especie de fútbol aéreo que se 
+                juega montado sobre escobas, y hará un puñado de buenos amigos... aunque también 
+                algunos temibles enemigos. Pero, sobre todo, conocerá los secretos que le 
+                permitirán cumplir su destino. Pues, aunque no lo parezca a primera vista, 
+                Harry no es un chico común y corriente: ¡es un verdadero mago!
+            </Sinopsis_lbr>
+            <Capitulo_lbr num_paginas_cap="10">
+                <Titulo_capitulo>El niño que sobrevivió</Titulo_capitulo>
+                <Contenido_capitulo enlace_lbr="www.amazon.es/HarryPotter"></Contenido_capitulo>
+            </Capitulo_lbr>
+            <Capitulo_lbr num_paginas_cap="158">
+                <Titulo_capitulo>El vidrio que se desvaneció</Titulo_capitulo>
+                <Contenido_capitulo enlace_lbr="www.amazon.es/Harry-Potter-Piedra-Filosofal"></Contenido_capitulo>
+            </Capitulo_lbr>
+        </Libro>
+        
+        <Libro id_lbr="L2005" tipo_clase_lbr="Infantil" num_paginas_lbr="64">
+            <Titulo_lbr>Kika embruja los deberes</Titulo_lbr>
+            <Indice_lbr>
+                1- De camino al cole
+                2- Embrujando los deberes
+                3- Jugando en el cole
+            </Indice_lbr>
+            <Sinopsis_lbr>
+                Kika Superbruja quiere probar a hacer los deberes con ayuda de un hechizo de su 
+                libro secreto de magia. Lo malo es que, como también tiene que cuidar de Dani, 
+                su hermano pequeño, las cosas se complican: a Dani le crecen orejas de conejo, 
+                aparece la bruja Elviruja... ¡Kika y su hermano van a pasar la tarde más 
+                emocionante de sus vidas!
+            </Sinopsis_lbr>
+            <Capitulo_lbr num_paginas_cap="10">
+                <Titulo_capitulo>De camino al cole</Titulo_capitulo>
+                <Contenido_capitulo enlace_lbr="www.amazon.es/Kika-embruja-los-deberes"></Contenido_capitulo>
+            </Capitulo_lbr>
+        </Libro>
+        
+        <Libro id_lbr="L2023" tipo_clase_lbr="Didactico" num_paginas_lbr="321">
+            <Titulo_lbr>
+                Git y GitHub desde cero: Guía de estudio teórico-práctica paso a paso 
+                más curso en vídeo
+            </Titulo_lbr>
+            <Indice_lbr>
+                Hola, mundo
+                README(Léeme)
+                    Guia de estudio más curso en video
+                    Imagenes
+                    Comparte
+                    Feedback o errores
+                Secciones
+                    Comandos
+                    Conceptos
+                    Curso
+                Introduccion
+                GIT
+                    Capitulo 1: Introduccion
+                        Conceptos
+                        Curso
+                    Capitulo 2: Historia
+                        Conceptos
+                        Curso
+                    Capitulo 3: Instalacion git
+                        Comandos
+                        Conceptos
+                        Curso
+                    Capitulo 4: Comandos básicos de la terminal
+                        Comandos
+                        Conceptos
+                        Curso
+                    Capitulo 5: Configuracion git_config
+                        Comandos
+                        Conceptos
+                        Curso
+                    Capitulo 6: Inicializacion de un repositorio git init
+                        Comandos
+                        Conceptos
+                        Curso
+                    Capitulo 7: Ramas
+                        Comandos
+                        Conceptos
+                        Curso
+                    [...]
+                GITHUB
+                    [...]
+            </Indice_lbr>
+            <Sinopsis_lbr>
+                Aprender a trabajar con Git y GitHub es una habilidad esencial para cualquier 
+                persona dedicada al desarrollo de software.Lo mejor de todo es que puedes hacerlo
+                en tan solo unas pocas horas.
+
+                Tan importante como aprender a programar, es hacerlo de manera segura. 
+                Estas dos herramientas son fundamentales para ello, ya que más del 95% del sector 
+                las utiliza a diario.
+
+                Esta guía, desde cero y paso a paso, te ayudará a comprender sus fundamentos, 
+                mientras aprendes la teoría y la aplicas en la práctica, gracias al 
+                curso incluido en el libro. Un curso en vídeo de 5 horas al que puedes acceder de 
+                forma gratuita desde mouredev.com/git-github.
+
+                Pero, si existe un curso en vídeo gratis, ¿por qué un libro?
+                Creo que la mejor manera de asegurar tu aprendizaje es combinando esta guía de fácil 
+                comprensión con el curso. Te servirá para seguir el curso clase a clase, entender cada 
+                lección, profundizar en sus conceptos, y aprender muchas cosas nuevas. 
+                También encontrarás secciones para destacar y ampliar las ideas más importantes, 
+                pudiendo consultar cualquier duda rápidamente.
+
+                45 lecciones, decenas de comandos y casos prácticos para comenzar a usar rápidamente 
+                Git y GitHub de manera profesional.
+            </Sinopsis_lbr>
+            <Capitulo_lbr num_paginas_cap="15">
+                <Titulo_capitulo>Capitulo 1: Introduccion</Titulo_capitulo>
+                <Contenido_capitulo enlace_lbr="www.amazon.es/Git-GitHub-desde-cero"></Contenido_capitulo>
+            </Capitulo_lbr>
+        </Libro>
+    </Libros>
+
+    <Revistas>
+        <Revista id_rv="R1478" tipo_clase_rv="Informatica" num_paginas_rv="57">
+            <Titulo_rv>De bit en bit</Titulo_rv>
+            <Numero_publicacion_rv>5</Numero_publicacion_rv>
+            <Indice_contenido_rv> 
+                Introduccion
+                Entrevistas
+                Bits de historia
+                Bits de lectura
+                Articulos
+            </Indice_contenido_rv>
+            <Secciones_rv>
+                <Seccion_rv num_paginas_seccion="5">
+                    <Contenido_rv enlace_rv="www.debitenbit.es"></Contenido_rv>
+                </Seccion_rv>
+            </Secciones_rv>
+        </Revista>
+    </Revistas>
+
+    <Periodicos>
+        <Periodico id_pr="P1993" tipo_clase_pr="Nacional" fecha_publicacion_pr="2023-07-17">
+            <Indice_pr>
+                Supereconomia  ..... 2
+                Opiniones varias  ....... 20
+                Entrevista a Courtois ...... 40
+                Elecciones nacionales ......65 
+                Eurovision .......35
+            </Indice_pr>
+            <Secciones_pr>
+                <Seccion_pr tipo_seccion_pr="Economia">
+                    <Articulo_pr autor="Pepe"></Articulo_pr>
+                    <Contenido_pr enlace_pr="www.economia.com"></Contenido_pr>
+                </Seccion_pr>
+                <Seccion_pr tipo_seccion_pr="Opinion">
+                    <Articulo_pr autor="Juan"></Articulo_pr>
+                    <Contenido_pr enlace_pr="www.opinion.com"></Contenido_pr>
+                </Seccion_pr>
+                <Seccion_pr tipo_seccion_pr="Deportes">
+                    <Articulo_pr autor="Pili"></Articulo_pr>
+                    <Contenido_pr enlace_pr="www.deportes.com"></Contenido_pr>
+                </Seccion_pr>
+                <Seccion_pr tipo_seccion_pr="Nacional">
+                    <Articulo_pr autor="Manolo"></Articulo_pr>
+                    <Contenido_pr enlace_pr="www.nacional.com"></Contenido_pr>
+                </Seccion_pr>
+                <Seccion_pr tipo_seccion_pr="Internacional">
+                    <Articulo_pr autor="Esther"></Articulo_pr>
+                    <Contenido_pr enlace_pr="www.internacional.com"></Contenido_pr>
+                </Seccion_pr>
+            </Secciones_pr>
+        </Periodico>
+    </Periodicos>
+
+</Biblioteca>
